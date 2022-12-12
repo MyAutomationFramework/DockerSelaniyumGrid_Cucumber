@@ -1,0 +1,2 @@
+cd D:\AppiumWorkspace\DockerSelaniyumgridCucumber
+docker-compose down

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.046">
+    <testcase classname="Verify Google Title" name="Verify Google Title" time="5.84">
+        <system-out>
+            <![CDATA[Given I open google url.....................................................passed
+Then validate title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

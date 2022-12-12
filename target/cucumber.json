@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-29T05:43:38.806Z",
+        "line": 3,
+        "name": "Verify Google Title",
+        "description": "",
+        "id": "verify-google-title;verify-google-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5651555800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open google url",
+            "match": {
+              "location": "stepDifinations.GoogleExcution.i_open_google_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1779300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate title",
+            "match": {
+              "location": "stepDifinations.GoogleExcution.validate_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Google Title",
+    "description": "",
+    "id": "verify-google-title",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/google.feature",
+    "tags": []
+  }
+]
